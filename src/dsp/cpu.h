@@ -322,7 +322,8 @@ typedef enum {
   kNEON,
   kMIPS32,
   kMIPSdspR2,
-  kMSA
+  kMSA,
+  kVSX
 } CPUFeature;
 
 // returns true if the CPU supports the feature.
